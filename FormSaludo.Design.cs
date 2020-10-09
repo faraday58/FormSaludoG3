@@ -11,9 +11,10 @@ namespace FormSaludo
         private Button btnAceptar;
         private Button btnLimpiar;
         #endregion
-
+        #region Métodos
         private void IniciarComponentes()
         {
+
             this.Size=new Size(400, 300);
             this.Text = "FormSaludo";
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -31,7 +32,7 @@ namespace FormSaludo
 
         }
 
-
+        #endregion
 
 
 
